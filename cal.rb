@@ -7,8 +7,10 @@ area = ARGV[2]
 price = price_str.to_i
 num = num_str.to_i
 sum = price * num
+tax = TAX[area]
 
 puts "price:#{price}" 
 puts "num:#{num}" 
 puts "area:#{area}"
 puts "sum:#{sum}"
+puts "tax:#{tax}"
