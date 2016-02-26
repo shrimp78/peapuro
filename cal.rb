@@ -4,3 +4,7 @@ area = ARGV[2]
 
 price = price_str.to_i
 num = num_str.to_i
+
+puts "price:#{price}" 
+puts "num:#{num}" 
+puts "area:#{area}"
